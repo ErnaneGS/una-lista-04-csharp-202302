@@ -20,7 +20,7 @@ class Atividade03
 
             Console.WriteLine("");
             Console.Write("Informe o nome: ");
-            nome = Console.ReadLine();
+            nome = Console.ReadLine() ?? "";
 
             if (nome.Length > 3)
                 break;

@@ -14,10 +14,10 @@ class Program
             Console.WriteLine("4. Atividade-04");
             Console.WriteLine("5. Atividade-05");
             Console.WriteLine("6. Atividade-06");
-            Console.WriteLine("6. Atividade-07");
+            Console.WriteLine("7. Atividade-07");
             Console.WriteLine("0. Encerrar aplicação");
 
-            string opcao = Console.ReadLine();
+            string opcao = Console.ReadLine() ?? "";
 
             switch (opcao)
             {
