@@ -1,8 +1,10 @@
 using System;
 
-class Atividade03 {
+class Atividade03
+{
 
-    public static void Executar() {
+    public static void Executar()
+    {
 
         Console.WriteLine("");
         Console.WriteLine("Atividade 03 - Validando informações");
@@ -13,7 +15,8 @@ class Atividade03 {
         char sexo;
         char estadoCivil;
 
-        while (true) {
+        while (true)
+        {
 
             Console.WriteLine("");
             Console.Write("Informe o nome: ");
@@ -26,7 +29,8 @@ class Atividade03 {
 
         }
 
-        while (true) {
+        while (true)
+        {
 
             Console.WriteLine("");
             Console.Write("Informe a idade: ");
@@ -38,7 +42,8 @@ class Atividade03 {
 
         }
 
-        while (true) {
+        while (true)
+        {
 
             Console.WriteLine("");
             Console.Write("Informe o salário:");
@@ -50,7 +55,8 @@ class Atividade03 {
 
         }
 
-        while (true) {
+        while (true)
+        {
 
             Console.WriteLine("");
             Console.Write("Informe o sexo(f ou m):");
@@ -62,7 +68,8 @@ class Atividade03 {
 
         }
 
-        while (true) {
+        while (true)
+        {
 
             Console.WriteLine("");
             Console.Write("Informe o estado civil (s, c, v ou d): \n");

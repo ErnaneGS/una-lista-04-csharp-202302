@@ -1,6 +1,7 @@
 using System;
 
-class Atividade05 {
+class Atividade05
+{
 
     public static void Executar()
     {
