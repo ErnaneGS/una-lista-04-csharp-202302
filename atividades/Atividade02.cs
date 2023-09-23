@@ -13,7 +13,7 @@ class Atividade02
         {
 
             Console.WriteLine("Informe o nome de usuário:");
-            string usuario = Console.ReadLine()  ?? "";
+            string usuario = Console.ReadLine() ?? "";
 
             Console.WriteLine("Informe a senha:");
             string senha = Console.ReadLine() ?? "";
